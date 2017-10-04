@@ -1,0 +1,62 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background: url('jeep.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+}
+.wrapper-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.2);
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pannel{
+    background:  rgba(255, 255, 255, 0.51);
+    position: relative;
+    z-index: 10;
+}
+.pannel ul{
+    display: flex;
+}
+.pannel li {
+    padding: 10px;
+    font-family: monotype corsiva;
+    font-size: 40px;
+}
+.pannel li a{
+    color: rgb(0, 1, 56);
+    font-size: 40px;
+    font-family: monotype corsiva;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
